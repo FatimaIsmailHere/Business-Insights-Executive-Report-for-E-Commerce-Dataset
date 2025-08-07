@@ -54,5 +54,5 @@ Fatima Ismail
 Data Analyst & Python Developer  
 📧 Contact: [ismailf1286@gmail.com]
 
----
+This project is licensed under the MIT License, enabling others to freely use, modify, and distribute the code for both academic and commercial purposes. The permissive nature of MIT encourages collaboration and reuse while protecting the original author from liability. This supports transparency and open innovation in the data analytics community.
 
