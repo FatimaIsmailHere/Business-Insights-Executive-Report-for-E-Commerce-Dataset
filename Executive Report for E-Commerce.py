@@ -40,7 +40,7 @@ order_data['purchase_month'] = order_data['order_purchase_timestamp'].dt.month
 order_data['purchase_year'] = order_data['order_purchase_timestamp'].dt.year
 
 # Saving Cleaned Dataset
-order_data.to_csv('cleaned_olist_data1.csv', index=False)
+order_data.to_csv('cleaned_olist_data.csv', index=False)
 print("Data cleaned and saved successfully.")
 
 
@@ -99,4 +99,5 @@ plt.show()
 sns.boxplot(x='review_score', y='delivery_time_days', data=order_data)
 plt.title('Delivery Time by Review Score')
 plt.tight_layout()
+
 plt.show()
